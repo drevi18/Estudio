@@ -7,7 +7,7 @@ public class ejercicioPRG2_17 {
         //Muestra por pantalla la suma de los 50 primeros naturales, empezando desde el 0
 
         int i,sum=0;
-        for(i=0;i<=50;i++){
+        for(i=0;i<50;i++){
             sum= sum+i;
         }
         System.out.println("La suma de los primeros 50 números naturales:"+sum);

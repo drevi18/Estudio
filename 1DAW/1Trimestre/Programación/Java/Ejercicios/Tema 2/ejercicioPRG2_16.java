@@ -8,7 +8,7 @@ public class ejercicioPRG2_16 {
 
         int num,i,sum=0;
 
-        for (i=0;i<=10;i++){
+        for (i=0;i<10;i++){
             System.out.println("Introduce un número entero:");
             num= tec.nextInt();
             sum= sum+num;

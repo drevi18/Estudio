@@ -9,5 +9,5 @@ public class tecpersona {
         p1.imprimirInformacion();
         p2.imprimirInformacion();
         p3.imprimirInformacion();
-}
+    }
 }
