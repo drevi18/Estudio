@@ -24,6 +24,7 @@ public class tecProducto {
          System.out.println("[9] Imprimir toda la información");
          System.out.println("[10] Añadir cantidad al stock");
          System.out.println("[11] Quitar cantidad al stock");
+         System.out.println("[12] Añadir un producto y comparar precios");
          System.out.println("[0] Salir ");
 
          menu= tec.nextInt();
@@ -90,6 +91,18 @@ public class tecProducto {
                 int cantrest=tec.nextInt();
                 p.actualizarStock(2, cantrest);
              break;
+
+             case 12 :
+             System.out.println("Introduce el nombre del producto");
+             String nombre2=tec.next();
+             System.out.println("Introduce el precio del producto");
+             double precio2=tec.nextDouble();
+             System.out.println("Introduce el stock del producto");
+             int stock2=tec.nextInt();
+             Producto p2= new Producto(nombre2,precio2,stock2);
+             System.out.println(" ");
+             System.out.println(" El primer producto en comparación al segundo es más caro?: "+p.esMasCaroQue(precio2));
+          break;
                                  
          }
      } while (menu!=0);

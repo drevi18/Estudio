@@ -59,4 +59,14 @@ public class Producto {
         return resultado;
     }
 
+    public boolean esMasCaroQue (double precio){
+        boolean resultado;
+        if(this.precio>precio){
+            resultado=true;
+        }else {
+            resultado=false;
+        }
+        return resultado;
+    }
+
 }
