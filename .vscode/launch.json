@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "prueba",
+      "request": "launch",
+      "mainClass": "prueba",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
       "name": "tecProducto",
       "request": "launch",
       "mainClass": "tecProducto",
