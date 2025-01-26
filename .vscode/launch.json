@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "tecpersona",
+      "request": "launch",
+      "mainClass": "tecpersona",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "ejercicioPRG2_5",
+      "request": "launch",
+      "mainClass": "ejercicioPRG2_5",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "chatgpt1",
+      "request": "launch",
+      "mainClass": "chatgpt1",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "ejemplo",
+      "request": "launch",
+      "mainClass": "ejemplo",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "TecPez",
+      "request": "launch",
+      "mainClass": "Pez.TecPez",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "TecPez",
+      "request": "launch",
+      "mainClass": "TecPez",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "tecPeso",
+      "request": "launch",
+      "mainClass": "tecPeso",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
       "name": "prueba",
       "request": "launch",
       "mainClass": "prueba",

@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Tecprueba",
+            "request": "launch",
+            "mainClass": "Tecprueba",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "TecPez",
+            "request": "launch",
+            "mainClass": "pez.TecPez",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TermNumero",
+            "request": "launch",
+            "mainClass": "TermNumero",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "Termfianzas",
+            "request": "launch",
+            "mainClass": "Termfianzas",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "ejemplo",
+            "request": "launch",
+            "mainClass": "ejemplo",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "tecCoche",
+            "request": "launch",
+            "mainClass": "tecCoche",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "tecCuentaBancaria",
+            "request": "launch",
+            "mainClass": "tecCuentaBancaria",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "tecPeso",
+            "request": "launch",
+            "mainClass": "tecPeso",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "tecProducto",
+            "request": "launch",
+            "mainClass": "tecProducto",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "tecProporcion",
+            "request": "launch",
+            "mainClass": "tecProporcion",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "tecpersona",
+            "request": "launch",
+            "mainClass": "tecpersona",
+            "projectName": "1DAW_eb61eb95"
+        }
+    ]
+}
