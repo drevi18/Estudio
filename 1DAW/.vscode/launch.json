@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testcomb",
+            "request": "launch",
+            "mainClass": "ejer6.testcomb",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "testprueba",
+            "request": "launch",
+            "mainClass": "ejer5.testprueba",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "Tecprueba",
             "request": "launch",
             "mainClass": "Tecprueba",
