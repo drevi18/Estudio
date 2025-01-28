@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PRG4_15",
+            "request": "launch",
+            "mainClass": "PRG4_15",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "Testdisp",
+            "request": "launch",
+            "mainClass": "Dispositivos.Testdisp",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "testcomb",
             "request": "launch",
             "mainClass": "ejer6.testcomb",
