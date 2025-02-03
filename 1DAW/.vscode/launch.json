@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pares",
+            "request": "launch",
+            "mainClass": "pares",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "acumulacion",
+            "request": "launch",
+            "mainClass": "acumulacion",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG4_9",
+            "request": "launch",
+            "mainClass": "PRG4_9",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "PRG4_15",
             "request": "launch",
             "mainClass": "PRG4_15",
