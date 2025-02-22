@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PRG5_1",
+            "request": "launch",
+            "mainClass": "PRG5_1",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "chatgpt1.Main",
