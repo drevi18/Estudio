@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PRG5_13",
+            "request": "launch",
+            "mainClass": "PRG5_13",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_7",
+            "request": "launch",
+            "mainClass": "PRG5_7",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_6",
+            "request": "launch",
+            "mainClass": "PRG5_6",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_5",
+            "request": "launch",
+            "mainClass": "PRG5_5",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_4",
+            "request": "launch",
+            "mainClass": "PRG5_4",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_3",
+            "request": "launch",
+            "mainClass": "PRG5_3",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "PRG5_1",
             "request": "launch",
             "mainClass": "PRG5_1",
