@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "apuntesmetodos",
+            "request": "launch",
+            "mainClass": "apuntesmetodos",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "main",
             "request": "launch",
             "mainClass": "taller.main",

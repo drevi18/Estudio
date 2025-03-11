@@ -9,9 +9,6 @@ public class apuntesmetodos {
  * Importación necesaria:
  * import java.util.ArrayList;
  */
-
-
-public class ArrayListEjemplo {
     public static void main(String[] args) {
         // Crear un ArrayList de tipo String
         ArrayList<String> nombres = new ArrayList<>();
@@ -60,4 +57,4 @@ public class ArrayListEjemplo {
  * clear() -> Borra todos los elementos.
  */
 
-}
+
