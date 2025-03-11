@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "chatgpt4",
+            "request": "launch",
+            "mainClass": "chatgpt4",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "chatgpt3",
             "request": "launch",
             "mainClass": "chatgpt3",
