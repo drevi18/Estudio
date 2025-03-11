@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "chatgpt3",
+            "request": "launch",
+            "mainClass": "chatgpt3",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "chatgpt2",
+            "request": "launch",
+            "mainClass": "chatgpt2",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "chatgpt1",
+            "request": "launch",
+            "mainClass": "chatgpt1",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_9",
+            "request": "launch",
+            "mainClass": "PRG5_9",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "PRG5_13",
             "request": "launch",
             "mainClass": "PRG5_13",
