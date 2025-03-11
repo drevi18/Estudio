@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "taller.main",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "enraya",
+            "request": "launch",
+            "mainClass": "enraya",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_M1",
+            "request": "launch",
+            "mainClass": "PRG5_M1",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
+            "name": "PRG5_16",
+            "request": "launch",
+            "mainClass": "PRG5_16",
+            "projectName": "1DAW_eb61eb95"
+        },
+        {
+            "type": "java",
             "name": "chatgpt4",
             "request": "launch",
             "mainClass": "chatgpt4",
