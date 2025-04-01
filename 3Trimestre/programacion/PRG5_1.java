@@ -8,7 +8,7 @@ public class PRG5_1{
         Scanner tec= new Scanner(System.in);
         
         String s1= new String();
-        System
+        
 
     
     }
