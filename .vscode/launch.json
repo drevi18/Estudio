@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
@@ -298,4 +299,98 @@
             "projectName": "1DAW_eb61eb95"
         }
     ]
+=======
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "tecpersona",
+      "request": "launch",
+      "mainClass": "tecpersona",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "ejercicioPRG2_5",
+      "request": "launch",
+      "mainClass": "ejercicioPRG2_5",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "chatgpt1",
+      "request": "launch",
+      "mainClass": "chatgpt1",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "ejemplo",
+      "request": "launch",
+      "mainClass": "ejemplo",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "TecPez",
+      "request": "launch",
+      "mainClass": "Pez.TecPez",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "TecPez",
+      "request": "launch",
+      "mainClass": "TecPez",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "tecPeso",
+      "request": "launch",
+      "mainClass": "tecPeso",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "prueba",
+      "request": "launch",
+      "mainClass": "prueba",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "tecProducto",
+      "request": "launch",
+      "mainClass": "tecProducto",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "type": "java",
+      "name": "tecCuentaBancaria",
+      "request": "launch",
+      "mainClass": "tecCuentaBancaria",
+      "projectName": "Estudio_a5f5a0a3"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Estudio",
+      "program": "c:/Estudio/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+>>>>>>> 6ae2fd25941fb0fd26863fe3a5d032aa29fa4f9d
 }
