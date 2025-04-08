@@ -1,3 +1,4 @@
+package tema6.ejerciciosaules;
 import java.util.*;
 
 public class Utils {
@@ -51,7 +52,7 @@ public class Utils {
 					System.out.println("Error: "+resultado+" fuera de rango");
 				}
 			} catch(NumberFormatException e) {
-				System.out.println("Error: "+valor+" no es un número válido");
+				System.out.println("Error: "+valor+" no es un nï¿½mero vï¿½lido");
 			}
 		} while (repetir);
 		
@@ -100,7 +101,7 @@ public class Utils {
 				}
 			}
 			System.out.println();
-			resultado = Utils.preguntarInt("    Elige opción", 1, numOpciones);
+			resultado = Utils.preguntarInt("    Elige opciï¿½n", 1, numOpciones);
 			System.out.println();
 		}
 		

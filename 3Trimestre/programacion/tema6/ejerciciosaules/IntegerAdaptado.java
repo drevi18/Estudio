@@ -1,4 +1,4 @@
-package tema6;
+package tema6.ejerciciosaules;
 
 public class IntegerAdaptado implements EsComprable<IntegerAdaptado> {
     private int valor;

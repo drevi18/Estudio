@@ -1,4 +1,4 @@
-package tema6;
+package tema6.ejerciciosaules;
 
 import java.util.Comparator;
 import java.util.TreeSet;
