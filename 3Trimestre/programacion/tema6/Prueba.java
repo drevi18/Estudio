@@ -4,7 +4,7 @@ public class Prueba{
     protected String nombre; 
     protected int ID; 
     public String getIdent(){return nombre;} 
-    public int getIdent(){return ID;} 
+    public int getIdent(){return ID;} l
 
     // No compila por que la variable getIdent está duplicada,
     // aunque sea de diferente tipo y devuelva diferentes cosas, 
