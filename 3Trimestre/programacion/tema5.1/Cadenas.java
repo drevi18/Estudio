@@ -191,6 +191,155 @@ public class Cadenas {
         System.out.println(s.indexOf("l"));
         System.out.println(s.indexOf("1"));
 
+        import java.util.Scanner;
+
+public class Cadenas {
+    public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+
+        String s;
+        String s2 = "Hola";
+        String s3 = new String("Hola");
+        String s4 = new String(s3);
+
+        s = s2;
+        s = "Hola";
+        System.out.println(s);
+        System.out.println();
+
+        System.out.println("Acceder a una posición para ver qué carácter hay:");
+        System.out.println(s.charAt(1));
+        System.out.println();
+
+        System.out.println("Reemplazar un carácter por otro:");
+        s = s.replace('o', 'a');
+        System.out.println(s);
+        System.out.println(s.charAt(1));
+        System.out.println();
+
+        System.out.println("Encontrar posición de un carácter en una cadena:");
+        System.out.println(s.indexOf("l"));
+        System.out.println(s.indexOf("a"));
+        System.out.println(s.indexOf("la"));
+        System.out.println(s.indexOf("lo"));
+        System.out.println();
+
+        System.out.println("Convertir un String en un char:");
+        char[] v = s.toCharArray();
+        System.out.println(v);
+        System.out.println(v[1]);
+        System.out.println();
+
+        System.out.println("Convertir un entero a String:");
+        int entero = 1;
+        s = String.valueOf(entero);
+        System.out.println(s);
+        System.out.println();
+
+        System.out.println("Convertir un String en un entero:");
+        String snumero = " 5 ";
+        int numero = Integer.parseInt(snumero.trim());
+        System.out.println(snumero);
+        System.out.println(numero);
+        System.out.println();
+
+        System.out.println("Convertir un String en un real:");
+        String xsnumero = " 5.5 ";
+        Double xnumero1 = Double.parseDouble(xsnumero.trim());
+        double xnumero2 = xnumero1.doubleValue();
+        double ynumero2 = Double.parseDouble(xsnumero.trim());
+        double znumero2 = Double.valueOf(xsnumero.trim()).doubleValue();
+        System.out.println(xsnumero);
+        System.out.println(xnumero1);
+        System.out.println(xnumero2);
+        System.out.println(ynumero2);
+        System.out.println(znumero2);
+        System.out.println();
+
+        System.out.print("Introduce una frase: ");
+        String frase = tec.nextLine();
+        System.out.print("Introduce una palabra: ");
+        String palabra = tec.nextLine();  // Usamos nextLine() para evitar el salto de línea
+        System.out.println(frase);
+        System.out.println(palabra);
+        System.out.println();
+
+        System.out.println("Compara dos cadenas con equals:");
+        String cad1 = "Hola";
+        String cad2 = new String("Hello");
+        System.out.println(cad1.equals(cad2));
+        if (cad1.equals(cad2)) {
+            System.out.println("Son iguales");
+        } else {
+            System.out.println("NO son iguales");
+        }
+        System.out.println();
+
+        System.out.println("compareTo:");
+        System.out.println(cad1.compareTo(cad2));
+        System.out.println();
+
+        System.out.println("Longitud de cad1:");
+        System.out.println(cad1.length());
+        System.out.println();
+
+        frase = cad1 + "hola";
+        frase = frase.concat("hola");
+        frase += cad1;
+        System.out.println(frase);
+        System.out.println();
+
+        String cad = "Hola Mundo playa";
+        System.out.println(cad.replace('o', 'a'));
+        System.out.println(cad.replaceAll("la", "y"));
+        System.out.println(cad.replaceFirst("la", "y"));
+        System.out.println();
+
+        cad = "Hola Mundo";
+        System.out.println(cad.substring(3, 8));
+        System.out.println(cad.substring(8));
+        System.out.println();
+
+        System.out.println("Pasar a mayúscula:");
+        System.out.println(Character.toUpperCase('c'));
+        System.out.println(Character.toUpperCase(s4.charAt(1)));
+        System.out.println();
+
+        cad = "    Ho l a Mu n d o ";
+        System.out.println(cad);
+        System.out.println(cad.trim());
+        System.out.println();
+
+        cad = "Hola Mundo";
+        System.out.println(cad.startsWith("Hola"));
+        System.out.println(cad.endsWith("hola"));
+        System.out.println();
+
+        StringBuilder cadena3 = new StringBuilder();
+        String miString = " Picando Código ";
+        System.out.println(miString.trim()); // se imprime la copia recortada
+        System.out.println();
+
+        for (int i = 0; i < 5; i++) {
+            cadena3.append("X");
+        }
+        System.out.println("cadena 3: " + cadena3);
+        System.out.println();
+
+        String cad5 = "Kahoot";
+        StringBuilder cad6 = new StringBuilder(cad5);
+        cad6.setCharAt(1, cad6.charAt(0));
+        System.out.println(cad6);
+
+        s = "cadena";
+        System.out.println(s.indexOf("l"));  // devuelve -1
+        System.out.println(s.indexOf("1"));  // devuelve -1
+
+        tec.close();
+    }
+}
+
+
 
     }
 }

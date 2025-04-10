@@ -39,7 +39,7 @@ public class ContenedorOrdenado<T extends EsComprable<T>> {
      * @return booleano: Si se puede añadir o no el dato al contenedor
      */
     public boolean anyadeDatoOrdenado(T dato) {
-        boolean ok = false;
+        boolean ok = false; 
 
         int i = 0;
         while (i < datos.size() && (dato.esMayorQue(datos.elementAt(i)))) {
