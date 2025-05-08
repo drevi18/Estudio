@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.onload = function(){
+
+            function cambiarText(){
+                document.getElementById("cambiar").textContent = "adios";
+            }
+
+        document.getElementById("boton").addEventListener("click",cambiarText);
+            
+            function cambiarColor(){
+                document.getElementById("color").style.color = "red";
+            }
+        
+        document.getElementById("boton2").addEventListener("click", cambiarColor);
+
+            function enviarText(){
+                const entrada = document.getElementById("text").value;
+                document.getElementById("enviado").innerText = entrada;
+            }
+
+            document.getElementById("boton3").addEventListener("click",enviarText);
+
+        }
+
+    </script>
+</head>
+<body>
+    <button id="boton">Click</button>
+    <p id="cambiar">Hola</p>
+    <button id="boton2">Click</button>
+    <p id="color">color</p>
+
+    <input id="text" placeholder="Escribe algo aquí">
+    <button id="boton3">Enviar</button></input>
+    <p id="enviado"></p>
+</body>
+</html>
