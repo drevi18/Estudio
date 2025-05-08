@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        window.onload = function(){
+
+            function granTex(){
+                document.getElementById("texto").style.fontSize = "2em";
+            }
+            function disTex(){
+                document.getElementById("texto").style.fontSize = "0.9em";
+            }
+
+            document.getElementById("b1").addEventListener("click", granTex);
+            document.getElementById("b2").addEventListener("click", disTex);
+            
+            function cambPar(){
+                const lista = document.getElementsByTagName("li");
+                for(let i=0; i < lista.length ; i++){
+                    if(i%2==0){
+                        lista[i+1].style.color = "red";
+                    }
+                }
+            }
+
+            document.getElementById("b3").addEventListener("click", cambPar);
+
+        }
+
+    </script>
+
 </head>
 <body>
-    
+    <h5 id="texto">
+    <p>Hola</p>
+    <p>vamos a poner un poco de texto</p>
+    </h5>
+    <button id="b1">+</button>
+    <button id="b2">-</button>
+
+    <ul id="lista">
+        <li>texto</li>
+        <li>texto</li>
+        <li>texto</li>
+        <li>texto</li>
+        <li>texto</li>
+        <li>texto</li>
+        <li>texto</li>
+        <li>texto</li>
+    </ul>
+    <button id="b3">cambiar</button>
 </body>
 </html>
