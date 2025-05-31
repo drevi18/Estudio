@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+            document.getElementById("boton").addEventListener("click", cambiar);
+
+            function  cambiar(){
+                let lista = document.getElementsByClassName("text");
+                for (let i = 0; i < lista.length; i++) {
+                    if(i%2==0){
+                        lista[i+1].style.color= "red";
+                    }
+                    
+                }
+            }
+
+            let nuevoParrafo = document.createElement("p"); // 1. Crear elemento
+            nuevoParrafo.textContent = "Este es un nuevo párrafo."; // 2. Agregar contenido
+            nuevoParrafo.style.color = "blue"; // 3. Modificar estilos
+            document.body.appendChild(nuevoParrafo);
+
+            let boton = document.createElement("button");
+            boton.textContent = "Haz clic aquí";
+            boton.setAttribute("id", "miBoton"); // Agregar ID
+            document.getElementById("contenedor").appendChild(boton);
+
+            let lista = document.getElementById("miLista"); // Debe haber una lista en el HTML
+            let nuevoItem = document.createElement("li");
+            nuevoItem.textContent = "Nuevo ítem";
+            lista.appendChild(nuevoItem);
+
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <p class="text">texto</p>   
+    <p class="text">texto</p>
+    <p class="text">texto</p>
+    <p class="text">texto</p>
+    <p class="text">texto</p>
+    <p class="text">texto</p>
+    <p class="text">texto</p>
+    <p class="text">texto</p>
+    <button id="boton">tocatoca</button>
+    <br>
+    <button id="contenedor"></button>
+
+    <ul id="miLista"></ul>
+</body>
+</html>
