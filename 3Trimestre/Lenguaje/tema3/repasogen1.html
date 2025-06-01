@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+            
+            document.getElementById("sumar").addEventListener("click", sumar);
+
+            function sumar(){
+            let num1 = Number(document.getElementById("num1").value);
+            let num2 = Number(document.getElementById("num2").value);
+
+                let suma = num1 + num2;
+                let resultado = document.getElementById("ressum").textContent = suma;
+            }
+            
+
+        }
+
+    </script>
+</head>
+<body>
+    <input type="number" name="" id="num1" placeholder="Introduce el primer numero">
+    <br>
+    <input type="number" name="" id="num2" placeholder="Introduce el segundo numero">
+    <br>
+    <button id="sumar">Sumar</button>
+    <h1 id="ressum"></h1>
+</body>
+</html>
