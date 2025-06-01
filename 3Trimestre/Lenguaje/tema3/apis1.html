@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Países</title>
+</head>
+<body>
+  <h1>Países del Mundo</h1>
+  <ul id="lista-paises"></ul>
+
+  <!-- Cargar Axios -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <script>
+    axios.get('https://restcountries.com/v3.1/all')
+      .then(response => {
+        const paises = response.data;
+        const lista = document.getElementById('lista-paises');
+
+        // Usamos un bucle for clásico
+        for (let i = 0; i < paises.length; i++) {
+          const pais = paises[i]; // Obtenemos cada país
+          const li = document.createElement('li');
+          li.textContent = pais.name.common;
+          lista.appendChild(li);
+        }
+      })
+      .catch(error => {
+        console.error('Error al obtener los países:', error);
+      });
+  </script>
+</body>
+</html>
